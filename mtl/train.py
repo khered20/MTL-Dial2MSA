@@ -48,7 +48,7 @@ def train(model, train_loader, optimizer, scheduler, device, val_loader, tokeniz
             batch["label_ids"] = batch.pop("label_id")
 
             outputs = model(**batch)
-            loss = combined_loss(outputs, alpha=0.5)
+            loss = combined_loss(outputs, alpha)
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
 
