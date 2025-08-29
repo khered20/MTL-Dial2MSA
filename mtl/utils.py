@@ -6,12 +6,12 @@ from sklearn.metrics import f1_score
 
 
 def dialect_label_to_id(dialect_label):
-    label_map = {"MSA": 0, "Egypt": 1, "Gulf": 2, "Levantine": 3, "Maghreb": 4}
+    label_map = {"MSA": 0, "EGY": 1, "GLF": 2, "LEV": 3, "MGR": 4}
     return label_map[dialect_label]
 
 
 def id_to_dialect_label(class_id):
-    id_map = {0: "MSA", 1: "Egypt", 2: "Gulf", 3: "Levantine", 4: "Maghreb"}
+    id_map = {0: "MSA", 1: "EGY", 2: "GLF", 3: "LEV", 4: "MGR"}
     return id_map.get(class_id, "Unknown")
 
 
