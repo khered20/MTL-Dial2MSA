@@ -55,7 +55,7 @@ class DialectDataset(Dataset):
         }
 
 
-def create_data_loaders(csv_file, csv_file1, tokenizer, batch_size=8, max_length=64):
+def create_data_loaders(csv_file, csv_file1, tokenizer, batch_size=16, max_length=128):
     train_df = pd.read_csv(csv_file)
     val_df = pd.read_csv(csv_file1)
 
