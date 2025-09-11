@@ -1,5 +1,5 @@
 # MTL-Dial2MSA
-Multi-Task Learning for Dialect Arabic → Modern Standard Arabic (MSA) Translation + Dialect Identification
+Paper: A Multi-Task Learning Approach to Dialectal Arabic Identification and Translation to Modern Standard Arabic
 
 ## Features
 - Joint training for **translation** and **dialect classification**
@@ -12,3 +12,6 @@ Multi-Task Learning for Dialect Arabic → Modern Standard Arabic (MSA) Translat
 ```bash
 git clone https://github.com/khered20/MTL-Dial2MSA.git
 cd MTL-Dial2MSA
+
+
+## LahjaTube
