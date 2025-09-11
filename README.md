@@ -38,8 +38,6 @@ This is an example code for model training using Multi-Task Learning, inference 
   - Maghrebi (MGR): 6,202
 - **[Word Analysis and Guidelines for Human Evaluation](https://github.com/khered20/MTL-Dial2MSA/tree/main/LahjaTube/Word%20Analysis%20and%20Guidelines%20for%20Human%20Evaluation.pdf)**
 
- Additional Corpora we used in the training:
-
 ## Citation
 
 If you find this work or the provided dataset useful in your research or projects, please cite our paper:
