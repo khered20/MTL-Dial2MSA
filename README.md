@@ -5,12 +5,34 @@ Paper: A Multi-Task Learning Approach to Dialectal Arabic Identification and Tra
 - Joint training for **translation** and **dialect classification**
 - Supports AraT5 and AraBART backbones
 - Training and validated with BLEU (translation) + Weighted F1 (classification)
-- Evaluation on Dial2MSA testing set
+- Evaluation on [Dial2MSA-Verified testing set](https://github.com/khered20/Dial2MSA-Verified/blob/main/test.7z)
 - Inference mode for single or batch input
-
-## LahjaTube
 
 ## Installation
 ```bash
 git clone https://github.com/khered20/MTL-Dial2MSA.git
 cd MTL-Dial2MSA
+```
+
+## Training and Evaluation 
+This is an example code for model training using Multi-Task Learning, inference and evaluation [`MTLtrain.ipynb`](https://github.com/khered20/MTL-Dial2MSA/blob/main/MTLtrain.ipynb).
+
+## [LahjaTube Dataset](https://github.com/khered20/MTL-Dial2MSA/tree/main/LahjaTube)
+
+- **Total size:** 31,938 aligned transcripts  
+- **Distribution:**  
+  - Egyptian (EGY): 10,279  
+  - Gulf (GLF): 7,762  
+  - Levantine (LEV): 7,695  
+  - Maghrebi (MGR): 6,202
+- **[Word Analysis and Guidelines for Human Evaluation](https://github.com/khered20/MTL-Dial2MSA/tree/main/LahjaTube/Word%20Analysis%20and%20Guidelines%20for%20Human%20Evaluation.pdf)**
+
+ Additional Corpora we used in the training:
+
+## Citation
+
+If you find this work or the provided dataset useful in your research or projects, please cite our paper:
+
+```bib
+--
+```
