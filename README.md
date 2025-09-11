@@ -13,6 +13,17 @@ Paper: A Multi-Task Learning Approach to Dialectal Arabic Identification and Tra
 git clone https://github.com/khered20/MTL-Dial2MSA.git
 cd MTL-Dial2MSA
 ```
+## Additional Corpora
+
+ Additional Corpora we used in the training:
+1. **PADIC** - Covers six Arabic cities from the Levant and Maghrebi regions.
+   > Reference: [meftouh2018padic](https://sourceforge.net/projects/padic/).
+2. **MADAR** -  Multilingual parallel dataset of 25 Arabic city-specific dialects and MSA.
+   > Reference: [bouamor-etal-2018-madar](https://camel.abudhabi.nyu.edu/madar-parallel-corpus/).
+3. **Arabic STS** - Provides MSA, Egyptian, and Saudi dialect translations for English sentences.
+   > Reference: [alsulaiman2022semantic](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272991).
+4. **Emi-NADI** - Our dataset to address the scarcity of Emirati dialect parallel corpora.
+   > Reference: [khered2023Emi-NADI](https://github.com/khered20/UniManc_NADI2023_ArabicDialectToMSA_MT/blob/main/datasets/Emi-NADI.csv)
 
 ## Training and Evaluation 
 This is an example code for model training using Multi-Task Learning, inference and evaluation [`MTLtrain.ipynb`](https://github.com/khered20/MTL-Dial2MSA/blob/main/MTLtrain.ipynb).
