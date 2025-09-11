@@ -30,7 +30,7 @@ This is an example code for model training using Multi-Task Learning, inference 
 
 ## [LahjaTube Dataset](https://github.com/khered20/MTL-Dial2MSA/tree/main/LahjaTube)
 
-- **Total size:** 31,938 aligned transcripts  
+- **Total size:** 31,938 transcripts cover four **Dialectal Arabic** from YouTube alongside their **Modern Standard Arabic (MSA)** and **English** translations  
 - **Distribution:**  
   - Egyptian (EGY): 10,279  
   - Gulf (GLF): 7,762  
