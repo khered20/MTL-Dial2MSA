@@ -2,10 +2,10 @@
 Paper: A Multi-Task Learning Approach to Dialectal Arabic Identification and Translation to Modern Standard Arabic
 
 ## Features
-- Joint training for **translation** and **dialect classification**
+- Joint training for **translation** and **classification**
 - Supports AraT5 and AraBART pretrained models
 - Validated on [Dial2MSA-Verified dev set](https://github.com/khered20/Dial2MSA-Verified/tree/main/dev) with BLEU (translation) + Weighted F1 (classification)
-- Evaluation on [Dial2MSA-Verified testing set](https://github.com/khered20/Dial2MSA-Verified/blob/main/test.7z) using BLEU and chrF++ metrics multi-reference for translations and using Accuracy, Macro-Average F1 and Weighted-Average F1 for classification
+- Evaluation on [Dial2MSA-Verified testing set](https://github.com/khered20/Dial2MSA-Verified/blob/main/test.7z) using BLEU and chrF++ metrics multi-reference for translation and using Accuracy, Macro-Average F1 and Weighted-Average F1 for classification
 - Inference mode for single or batch input
 
 ## Installation
@@ -30,7 +30,7 @@ This is an example code for model training using Multi-Task Learning, inference 
 
 ## [LahjaTube Dataset](https://github.com/khered20/MTL-Dial2MSA/tree/main/LahjaTube)
 
-- **Total size:** 31,938 transcripts cover four **Dialectal Arabic** from YouTube alongside their **Modern Standard Arabic (MSA)** and **English** translations  
+- **Total size:** 31,938 transcripts cover four **Dialectal Arabic (DA)** from YouTube alongside their **Modern Standard Arabic (MSA)** and **English** translations  
 - **Distribution:**  
   - Egyptian (EGY): 10,279  
   - Gulf (GLF): 7,762  
