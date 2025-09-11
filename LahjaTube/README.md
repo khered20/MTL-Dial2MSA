@@ -12,8 +12,8 @@
 
 - **Top Words Analysis:**  
   For each dialect, the repository includes:
-  - The most frequent (top) words in the dialect.
-  - The top words from its corresponding MSA translations.
+  - The most frequent (top) words for each dialect only.
+  - The top words from its corresponding MSA translations only.
   - Overlap between each DA and MSA.
   
 - **[Word Analysis and Guidelines for Human Evaluation](https://github.com/khered20/MTL-Dial2MSA/tree/main/LahjaTube/Word%20Analysis%20and%20Guidelines%20for%20Human%20Evaluation.pdf)**
