@@ -60,7 +60,7 @@ def create_data_loaders(csv_file, csv_file1, tokenizer, batch_size=16, max_lengt
     val_df = pd.read_csv(csv_file1)
 
     train_df.sample(frac=1, random_state=42).to_csv("train_temp.csv", index=False)
-    val_df.sample(frac=1, random_state=42).to_csv("val_temp.csv", index=False)
+    val_df.to_csv("val_temp.csv", index=False)
 
     train_dataset = DialectDataset(
         csv_file="train_temp.csv", tokenizer=tokenizer, max_length=max_length
