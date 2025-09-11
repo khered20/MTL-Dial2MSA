@@ -1,14 +1,16 @@
 # MTL-Dial2MSA
-Multi-Task Learning for Dialect Arabic → Modern Standard Arabic (MSA) Translation + Dialect Identification
+Paper: A Multi-Task Learning Approach to Dialectal Arabic Identification and Translation to Modern Standard Arabic
 
 ## Features
 - Joint training for **translation** and **dialect classification**
 - Supports AraT5 and AraBART backbones
-- Evaluation with BLEU (translation) + F1 (classification)
+- Training and validated with BLEU (translation) + Weighted F1 (classification)
+- Evaluation on Dial2MSA testing set
 - Inference mode for single or batch input
+
+## LahjaTube
 
 ## Installation
 ```bash
-git clone https://github.com/<your-username>/MTL-Dial2MSA.git
+git clone https://github.com/khered20/MTL-Dial2MSA.git
 cd MTL-Dial2MSA
-pip install -r requirements.txt
