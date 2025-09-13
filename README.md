@@ -23,7 +23,7 @@ cd MTL-Dial2MSA
 3. **Arabic STS** - Provides MSA, Egyptian, and Saudi dialect translations for English sentences.
    > Reference: [alsulaiman2022semantic](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272991).
 4. **Emi-NADI** - Our dataset to address the scarcity of Emirati dialect parallel corpora.
-   > Reference: [khered2023Emi-NADI](https://github.com/khered20/UniManc_NADI2023_ArabicDialectToMSA_MT/blob/main/datasets/Emi-NADI.csv)
+   > Reference: [khered2023Emi-NADI](https://github.com/khered20/UniManc_NADI2023_ArabicDialectToMSA_MT/blob/main/)
 
 ## Training and Evaluation 
 This is an example code for model training using Multi-Task Learning, inference and evaluation [`MTLtrain.ipynb`](https://github.com/khered20/MTL-Dial2MSA/blob/main/MTLtrain.ipynb).
