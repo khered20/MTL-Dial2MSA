@@ -36,5 +36,19 @@ To request access, please get in touch with us via email with the following info
 
 If you use LahjaTube in your research, please cite:
 
-```bibtex
---
+```bib
+@InProceedings{khered2025-mtl-da2msa,
+  author    = {Khered, Abdullah  and  Benkhedda, Youcef  and  Batista-Navarro, Riza},
+  title     = {A Multi-Task Learning Approach to Dialectal Arabic Identification and Translation to Modern Standard Arabic},
+  booktitle      = {Proceedings of the First Workshop on Advancing NLP for Low-Resource Languages},
+  month          = {September},
+  year           = {2025},
+  address        = {Varna, Bulgaria},
+  publisher      = {Association for Computational Linguistics},
+  pages     = {21--31},
+  abstract  = {Translating Dialectal Arabic (DA) into Modern Standard Arabic (MSA) is a complex task due to the linguistic diversity and informal nature of dialects, particularly in social media texts. To improve translation quality, we propose a Multi-Task Learning (MTL) framework that combines DA-MSA translation as the primary task and dialect identification as an auxiliary task. Additionally, we introduce LahjaTube, a new corpus containing DA transcripts and corresponding MSA and English translations, covering four major Arabic dialects: Egyptian (EGY), Gulf (GLF), Levantine (LEV), and Maghrebi (MGR), collected from YouTube. We evaluate AraT5 and AraBART on the Dial2MSA-Verified dataset under Single-Task Learning (STL) and MTL setups. Our results show that adopting the MTL framework and incorporating LahjaTube into the training data improve the translation performance, leading to a BLEU score improvement of 2.65 points over baseline models.},
+  url       = {https://acl-bg.org/proceedings/2025/LowResNLP%202025/pdf/2025.lowresnlp-1.4.pdf}
+}
+```
+
+[https://aclanthology.org/2025.lowresnlp-1.4]: #
