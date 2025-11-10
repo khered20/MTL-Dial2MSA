@@ -43,7 +43,7 @@ This is an example code for model training using Multi-Task Learning, inference 
 If you find this work or the provided dataset useful in your research or projects, please cite our paper:
 
 ```bib
-@InProceedings{khered-benkhedda-batistanavarro:2025:lowresnlp,
+@InProceedings{khered2025-mtl-da2msa,
   author    = {Khered, Abdullah  and  Benkhedda, Youcef  and  Batista-Navarro, Riza},
   title     = {A Multi-Task Learning Approach to Dialectal Arabic Identification and Translation to Modern Standard Arabic},
   booktitle      = {Proceedings of the First Workshop on Advancing NLP for Low-Resource Languages},
